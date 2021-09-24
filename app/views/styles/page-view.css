@@ -1,0 +1,601 @@
+body {
+	background: url('../images/bg.png');
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+input, button, a {
+	outline: none !important;
+}
+
+section.map-container {
+	height: 100vh;
+	min-width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+	section.map-container .map-box {
+		height: 100vh;
+	}
+		section.map-container .map-box > .map {
+			height: 85%;
+			overflow: hidden;
+		}
+		section.map-container .map-box > .map > .imgMap {
+			background-image: url('../images/map1.png');
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: 23px 8px;
+			height: 100%;
+			display: block;
+			position: relative;
+		}
+			section.map-container .map-box > .map > .imgMap > button.city {
+				font-size: 16px;
+				font-weight: 500;
+				position: absolute;			
+				background-color: transparent;
+				border: none;			
+				z-index: 999;	
+				color: #fff;
+			}
+				section.map-container .map-box > .map > .imgMap > button.city > span {
+					font-size: 20px;
+					font-weight: 700;			
+				}
+			section.map-container .map-box > .map > .imgMap > button.city::before {
+				content: '';
+				width: 9px;
+				height: 9px;
+				border-radius: 50%;
+				position: absolute;
+				left: -2px;
+				top: -7px;
+				background: #000;			
+			}
+			section.map-container .map-box > .map > .imgMap > button.city.main::before {				
+				width: 12px;
+				height: 12px;				
+				left: -2px;
+				top: -7px;			
+			}
+
+button#city1 {
+	top: 203px;
+	left: 570px;
+}			
+	button#city26 {
+		top: 160px;
+		left: 530px;
+	}
+	button#city27 {
+		top: 125px;
+		left: 550px;
+	}
+	button#city28 {
+		top: 260px;
+		left: 540px;
+	}
+	button#city29 {
+		top: 285px;
+		left: 585px;
+	}	
+button#city2 {
+	top: 250px;
+	left: 955px;
+}
+	button#city30 {
+		top: 318px;
+		left: 1028px;
+	}
+	button#city31 {
+		top: 350px;
+		left: 960px;
+	}
+	button#city32 {
+		top: 315px;
+		left: 910px;
+	}
+
+button#city3 {
+	top: 270px;
+	left: 842px;
+}
+	button#city33 {
+		top: 340px;
+		left: 770px;
+	}
+	button#city34 {
+		top: 270px;
+		left: 870px;
+	}
+	button#city35 {
+		top: 230px;
+		left: 725px;
+	}
+
+button#city4 {
+	top: 400px;
+	left: 680px;
+}
+	button#city36 {
+		top: 375px;
+		left: 740px;
+	}
+	button#city37 {
+		top: 385px;
+		left: 600px;
+	}
+	button#city38 {
+		top: 350px;
+		left: 685px;
+	}
+button#city5 {
+	top: 100px;
+	left: 620px;
+}
+	button#city39 {
+		top: 145px;
+		left: 615px;
+	}
+	button#city40 {
+		top: 140px;
+		left: 665px;
+	}
+	button#city41 {
+		top: 180px;
+		left: 685px;
+	}
+	button#city42 {
+		top: 100px;
+		left: 720px;
+	}
+button#city6 {
+	top: 145px;
+	left: 850px;
+}
+	button#city43 {
+		top: 106px;
+		left: 750px;
+	}
+	button#city44 {
+		top: 170px;
+		left: 765px;
+	}
+	button#city45 {
+		top: 205px;
+		left: 860px;
+	}
+button#city7 {
+	top: 300px;
+	left: 680px;
+}
+	button#city46 {
+		top: 370px;
+		left: 550px;
+	}
+	button#city47 {
+		top: 320px;
+		left: 545px;
+	}
+	button#city48 {
+		top: 260px;
+		left: 640px;
+	}
+	button#city49 {
+		top: 250px;
+		left: 675px;
+	}
+button#city8 {
+	top: 402px;
+	left: 865px;
+}
+	button#city50 {
+		top: 445px;
+		left: 770px;
+	}
+	button#city51 {
+		top: 385px;
+		left: 930px;
+	}
+	button#city52 {
+		top: 445px;
+		left: 955px;
+	}
+button#city9 {
+	top: 400px;
+	left: 1160px;
+}
+	button#city53 {
+		top: 415px;
+		left: 1140px;
+	}
+	button#city54 {
+		top: 345px;
+		left: 1120px;
+	}
+button#city10 {
+	top: 445px;
+	left: 1050px;
+}
+	button#city55 {
+		top: 530px;
+		left: 1050px;
+	}
+	button#city56 {
+		top: 445px;
+		left: 1115px;
+	}
+	button#city57 {
+		top: 370px;
+		left: 1035px;
+	}
+	button#city58 {
+		top: 380px;
+		left: 1070px;
+	}
+	button#city59 {
+		top: 415px;
+		left: 1015px;
+	}
+	button#city60 {
+		top: 420px;
+		left: 1095px;
+	}
+button#city11 {
+	top: 460px;
+	left: 883px;
+}
+	button#city61 {
+		top: 580px;
+		left: 905px;
+	}
+	button#city62 {
+		top: 565px;
+		left: 985px;
+	}
+	button#city63 {
+		top: 505px;
+		left: 945px;
+	}
+button#city12 {
+	top: 577px;
+	left: 737px;
+}
+	button#city64 {
+		top: 560px;
+		left: 784px;
+	}
+button#city13 {
+	top: 535px;
+	left: 690px;
+}
+	button#city65 {
+		top: 450px;
+		left: 610px;
+	}
+	button#city66 {
+		top: 470px;
+		left: 712px;
+	}
+button#city14 {
+	top: 600px;
+	left: 560px;
+}
+	button#city67 {
+		top: 695px;
+		left: 454px;
+	}
+	button#city68 {
+		top: 454px;
+		left: 545px;		
+	}
+button#city15 {
+	top: 320px;
+	left: 412px;
+}
+	button#city69 {
+		top: 385px;
+		left: 400px;
+		line-height: 9px;
+	}
+	button#city70 {
+		top: 370px;
+		left: 500px;
+	}
+button#city16 {
+	top: 290px;
+	left: 320px;
+}
+	button#city71 {
+		top: 370px;
+		left: 330px;
+		line-height: 9px;
+	}
+	button#city72 {
+		top: 300px;
+		left: 300px;
+	}
+	button#city73 {
+		top: 230px;
+		left: 340px;
+	}
+button#city17 {
+	top: 225px;
+	left: 430px;
+}
+	button#city74 {
+		top: 255px;
+		left: 405px;
+	}
+	button#city75 {
+		top: 200px;
+		left: 385px;
+		line-height: 9px;
+	}
+	button#city76 {
+		top: 170px;
+		left: 444px;
+	}
+button#city18 {
+	top: 180px;
+	left: 275px;
+}
+	button#city77 {
+		top: 210px;
+		left: 250px;
+	}
+	button#city78 {
+		top: 110px;
+		left: 315px;
+	}
+button#city19 {
+	top: 165px;
+	left: 215px;
+}
+	button#city79 {
+		top: 130px;
+		left: 190px;
+	}
+	button#city80 {
+		top: 93px;
+		left: 192px;
+	}
+	button#city81 {
+		top: 190px;
+		left: 193px;
+	}
+button#city20 {
+	top: 258px;
+	left: 120px;
+}
+	button#city82 {
+		top: 214px;
+		left: 160px;
+	}
+	button#city83 {
+		top: 320px;
+		left: 125px;
+	}
+button#city21 {
+	top: 275px;
+	left: 235px;
+}
+	button#city84 {
+		top: 240px;
+		left: 260px;
+	}
+	button#city85 {
+		top: 300px;
+		left: 210px;
+	}
+	button#city86 {
+		top: 330px;
+		left: 260px;
+	}
+button#city22 {
+	top: 410px;
+	left: 250px;
+}
+	button#city87 {
+		top: 378px;
+		left: 257px;
+	}
+	button#city88 {
+		top: 408px;
+		left: 320px;
+	}
+	button#city89 {
+		top: 424px;
+		left: 224px;
+	}
+button#city23 {
+	top: 365px;
+	left: 190px;
+}
+	button#city90 {
+		top: 315px;
+		left: 185px;
+	}
+	button#city91 {
+		top: 350px;
+		left: 140px;
+	}
+	button#city92 {
+		top: 400px;
+		left: 215px;
+	}
+button#city24 {
+	top: 380px;
+	left: 40px;
+}
+	button#city93 {
+		top: 408px;
+		left: 75px;
+	}
+button#city25 {
+	top: 755px;
+	left: 805px;
+}
+	button#city94 {
+		top: 782px;
+		left: 788px;
+	}
+	button#city95 {
+		top: 725px;
+		left: 888px;
+	}
+
+
+	
+	.button-bar {
+		position: absolute;
+		z-index: 100;
+		bottom: 18%;
+		left: 0;
+	}
+	.button-bar > button {
+		display: block;
+		background-color: transparent;
+		border: 2px solid #6236b2;
+		color: #fff;
+		text-align: center;
+		width: 45px;
+		height: 45px;
+		font-size: 24px;
+		line-height: 25px;
+	}
+
+		section.map-container > .map-box > .map-navigation {
+			
+		}
+
+		#myCanvas {
+			display: block;
+			position: relative;
+			z-index: 50;
+			left: 0;
+			top: 0;
+		}
+
+.track-box {
+	color: #fff;
+	font-size: 22px;
+
+}
+.track-box span.distance {
+		font-size: 18px;
+		color: #5f3bc8
+}
+
+
+
+.roadTrace {
+	position: absolute;
+	z-index: 999;
+	right: 60px;
+	top: 100px;
+	width: 450px;
+	max-height: 750px;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 50px 20px;
+	border: 3px solid #6b3ac2;
+	box-shadow: 0 0 15px #6b3ac2;
+	font-family: consolas;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 1.1px;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+	.roadTrace > form {
+		text-align: center;
+	}
+		.roadTrace > form  label {
+			display: block;
+			margin-bottom: 50px;
+			text-align: center;
+
+		}
+		
+			.roadTrace > form  label > span {
+				display: block;
+				margin-bottom: 10px;
+			}
+			.roadTrace > form  label.addButton > span {
+				letter-spacing: 1px;
+				font-size: 14px;
+			}
+		.roadTrace > form  button {
+			margin-bottom: 15px;
+		}
+		.roadTrace > form  button.addInput {
+			border-radius: 50%;
+			width: 35px;
+			height: 35px;
+			position: relative;
+			padding: 0;	
+			line-height: 30px;
+			font-weight: 700;
+			font-size: 30px;	
+			border: 1px solid #fff;
+			color: #fff;
+			background: transparent;	
+		}
+			
+		.roadTrace > form  .neonInput::after {
+				content: '';
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				background: #fff;
+				bottom: -30px;
+				left: calc(50% - 3px);
+		}
+		.roadTrace > form  .neonInput input {
+			color: #fff;
+			background: transparent;
+			border: none;
+			border-bottom: 2px solid #fff;
+			outline: none;
+			position: relative;
+			transition: 1s;
+			display: inline-block;
+			text-align: center;
+
+		}
+		.roadTrace > form  .neonInput span {
+			display: none;
+		}
+
+
+
+		.roadTrace > form  button.searchRoad {
+			padding: 0;
+		}
+
+
+
+
+
+
+
+
+
+p.cursorPos {
+	position: absolute;
+	top: 25px;
+	left: calc(50% - 120px);
+	font-size: 24px;
+	color: #fff;
+}
+
+
